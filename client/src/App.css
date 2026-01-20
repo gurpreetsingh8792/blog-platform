@@ -1,0 +1,78 @@
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  text-align: left;
+}
+
+
+.ql-editor {
+  min-height: 280px;
+  white-space: pre-wrap;
+  line-height: 1.75;
+}
+
+.post-content {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.post-content p {
+  margin: 0 0 12px;
+}
+
+.post-content p:empty {
+  min-height: 12px;
+  margin: 0 0 12px;
+}
+
+.post-content h1 { font-size: 26px; margin: 16px 0 10px; font-weight: 700; }
+.post-content h2 { font-size: 22px; margin: 16px 0 10px; font-weight: 700; }
+.post-content h3 { font-size: 18px; margin: 14px 0 8px;  font-weight: 700; }
+
+.post-content ul,
+.post-content ol {
+  margin: 0 0 12px;
+  padding-left: 1.25rem;
+}
+
+.post-content li {
+  margin: 4px 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
